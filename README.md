@@ -28,4 +28,4 @@ Un sencillo proyecto web para organizar un sorteo de "Amigo Secreto". Permite ag
 
 1. Clona este repositorio:
    ```bash
-   git clone  https://github.com/OliviaBurgosBlanco08/challenge-amigo-secreto.git
+   git clone  https://github.com/OliviaBurgosBlanco08/challenge-amigo-secreto_esp-main.git
