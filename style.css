@@ -6,9 +6,10 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+        
 }
 
-/* Estilos generales */
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +40,7 @@ body {
     padding: 40px 0 0;
 }
 
-/* Sección de entrada */
+/* Entry section */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
@@ -52,7 +53,7 @@ body {
     width: 100%;
 }
 
-/* Títulos */
+/* Titles */
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
@@ -70,7 +71,7 @@ body {
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+/* Input and button containers */
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -92,7 +93,7 @@ body {
     justify-content: center;
 }
 
-/* Estilos de entrada de texto */
+/* Text input styles */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -104,7 +105,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
+/* Button styles */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -125,7 +126,7 @@ button {
     background-color: #a1a1a1;
 }
 
-/* Listas */
+/* Lists */
 ul {
     list-style-type: none;
     color: var(--color-text);
@@ -142,7 +143,13 @@ ul {
     text-align: center;
 }
 
-/* Botón de sortear título */
+/* Title raffle button */
+
+.button-container {
+    display: flex;
+    gap: 6em;
+}
+
 .button-draw {
     display: flex;
     align-items: center;
@@ -151,6 +158,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    
 }
 
 .button-draw img {
@@ -159,4 +167,25 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Restart game button */
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color:#261FB3;
+    font-size: 16px;
+ 
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
+    background-color:#161179;
 }
